@@ -8,7 +8,7 @@ const suma = (a,b) =>{
   
   
 }
-console.log(suma(5,5));
+
 
 const sonIguales = (x, y)=>{
   // Devuelve "true" si "x" e "y" son iguales
@@ -24,7 +24,7 @@ const sonIguales = (x, y)=>{
   
 
 }
-console.log(sonIguales(2,2))
+
 
 
 function tienenMismaLongitud(str1, str2) {
@@ -38,7 +38,7 @@ function tienenMismaLongitud(str1, str2) {
       return false;
   }
 }
-console.log(tienenMismaLongitud('roma','amor'));
+
 
 function esPositivo(numero) {
   /**
@@ -87,7 +87,7 @@ const colors = (color)=>{
 
 }
 }
-console.log(colors('blue'));
+
 
 
 
@@ -107,7 +107,7 @@ const fizzBuzz = (numero)  => {
     return numero
   }
 }
-console.log(fizzBuzz(15));
+
 
 
 const devolverPrimerElemento = (array) => {
@@ -120,7 +120,7 @@ const devolverPrimerElemento = (array) => {
   return array[0];
   
 }
-console.log(devolverPrimerElemento([1,2,3,4,5,6,7,8,9,10]));
+
 
 
 const agregarItemAlFinalDelArray = (array, elemento) =>{
@@ -133,7 +133,7 @@ const agregarItemAlFinalDelArray = (array, elemento) =>{
   return array;
 }
 
-console.log(agregarItemAlFinalDelArray([15]))
+
 
 const nuevoUsuario = (nombre, email, password) => {
   /**
@@ -148,7 +148,7 @@ const nuevoUsuario = (nombre, email, password) => {
   }
   
 }
-console.log(nuevoUsuario('jose','j.se@correo.com',1563)); 
+
 
 
 
